@@ -1,7 +1,9 @@
 # Weather Dashboard
 
-A simple weather dashboard built with **Next.js** and **Tailwind CSS**.  
-It allows users to search for any city and view current weather information along with a 5-day forecast.  
+I built a simple weather dashboard using **HTML, CSS, and JavaScript**, and to make things easier and more modern I used **Next.js** and **Tailwind CSS**.  
+The app lets you search for any city and see the current weather details along with a 5-day forecast.  
+ 
+
 
 ## Features
 - Search weather by city name  
@@ -20,11 +22,6 @@ It allows users to search for any city and view current weather information alon
 - Next.js (React framework)  
 - Tailwind CSS for styling  
 - OpenWeatherMap API for weather data
-
-## Clarification
-
-I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **Tailwind CSS** to manage them in a modern way. In the end, it still runs on standard HTML, CSS, and JavaScript.
-
 
 
 ## Screenshots
@@ -58,4 +55,5 @@ I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **
 
 * This project requires a valid OpenWeatherMap API key.
 * Tested on both desktop and mobile for responsiveness.
+* I made this project with **HTML, CSS, and JavaScript**, but I used **Next.js** and **Tailwind CSS** to organize and manage everything in a modern way. In the end,, it still runs on plain HTML, CSS, and JavaScript these tools just make the development process smoother and more efficient.  
 
