@@ -50,7 +50,6 @@ I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **
 ├── components/        # Reusable UI components
 ├── pages/             # Next.js pages
 ├── styles/            # Global styles (Tailwind CSS)
-├── public/            # Static assets
 └── README.md
 ```
 
