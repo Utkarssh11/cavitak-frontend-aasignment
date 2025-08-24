@@ -1,7 +1,7 @@
 # Weather Dashboard
 
-I built a simple weather dashboard using **HTML, CSS, and JavaScript**, and to make things easier and more modern I used **Next.js** and **Tailwind CSS**.  
-The app lets you search for any city and see the current weather details along with a 5-day forecast.  
+This project showcases my skills in **HTML, CSS, JavaScript, and Next.js**, with styling handled through **Tailwind CSS**.  
+It’s a simple weather dashboard where you can search for any city and see the current weather details along with a 5-day forecast.  
  
 
 
