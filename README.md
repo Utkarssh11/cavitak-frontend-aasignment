@@ -55,5 +55,3 @@ The app lets you search for any city and see the current weather details along w
 
 * This project requires a valid OpenWeatherMap API key.
 * Tested on both desktop and mobile for responsiveness.
-* I made this project with **HTML, CSS, and JavaScript**, but I used **Next.js** and **Tailwind CSS** to organize and manage everything in a modern way. In the end,, it still runs on plain HTML, CSS, and JavaScript these tools just make the development process smoother and more efficient.  
-
