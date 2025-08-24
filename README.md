@@ -15,7 +15,8 @@ It allows users to search for any city and view current weather information alon
 ## Tech Stack
 - Next.js (React framework)  
 - Tailwind CSS for styling  
-- OpenWeatherMap API for weather data  
+- OpenWeatherMap API for weather data
+
 
 ## Getting Started
 
@@ -35,6 +36,11 @@ It allows users to search for any city and view current weather information alon
 ├── .env.local.example # Example environment variables
 └── README.md
 ```
+
+## Clarification
+
+I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **Tailwind CSS** to manage them in a modern way. In the end, it still runs on standard HTML, CSS, and JavaScript.
+
 
 ## Notes
 
