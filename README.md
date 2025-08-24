@@ -1,13 +1,43 @@
-<<<<<<< HEAD
-# Weather Dashboard (Bonus Features)
-Core: city search, OpenWeatherMap API, temperature, condition, humidity, wind, loading, error, responsive UI.
-Bonus: 5-day forecast, favorite cities, dark/light mode.
+# Weather Dashboard
 
-## Setup
-npm install
-Create .env.local with NEXT_PUBLIC_OWM_API_KEY=YOUR_KEY
-npm run dev
-npm run build && npm start
-=======
-# cavitak-frontend-aasignment
->>>>>>> d14b57fc7040bfc835a41b5cea6219c0d2301cb9
+A simple weather dashboard built with **Next.js** and **Tailwind CSS**.  
+It allows users to search for any city and view current weather information along with a 5-day forecast.  
+
+## Features
+- Search weather by city name  
+- Display temperature, humidity, wind speed, and condition  
+- 5-day forecast with daily summary  
+- Save favorite cities (stored in local storage)  
+- Dark/Light mode toggle with preference persistence  
+- Loading and error handling  
+- Responsive design  
+
+## Tech Stack
+- Next.js (React framework)  
+- Tailwind CSS for styling  
+- OpenWeatherMap API for weather data  
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18 or later)  
+- OpenWeatherMap API key (free at [https://openweathermap.org/](https://openweathermap.org/))  
+
+
+## Folder Structure
+
+```
+.
+├── components/        # Reusable UI components
+├── pages/             # Next.js pages
+├── styles/            # Global styles (Tailwind CSS)
+├── public/            # Static assets
+├── .env.local.example # Example environment variables
+└── README.md
+```
+
+## Notes
+
+* This project requires a valid OpenWeatherMap API key.
+* Tested on both desktop and mobile for responsiveness.
+
