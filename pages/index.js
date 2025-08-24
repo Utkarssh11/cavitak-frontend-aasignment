@@ -59,13 +59,14 @@ export default function Home() {
         <button onClick={toggleTheme} className="button">{dark ? "Light" : "Dark"} Mode</button>
       </div>
       <SearchBar onSearch={fetchWeather} />
-      {savedCities.length > 0 and (
-        <div className="flex flex-wrap gap-2 mt-4">
-          {savedCities.map(city => (
-            <button key={city} onClick={() => fetchWeather(city)} className="button">{city}</button>
-          ))}
-        </div>
-      )}
+{savedCities.length > 0 && (
+  <div className="flex flex-wrap gap-2 mt-4">
+    {savedCities.map(city => (
+      <button key={city} onClick={() => fetchWeather(city)} className="button">{city}</button>
+    ))}
+  </div>
+)}
+
       {loading && <Loader />}
       {error && <div className="mt-6 text-red-400">{error}</div>}
       {data && <WeatherCard data={data} onSave={toggleSave} saved={savedCities.includes(data.name)} />}
