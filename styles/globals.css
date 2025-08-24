@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white min-h-screen transition-colors; }
+.container { @apply max-w-3xl mx-auto px-4 py-10; }
+.input { @apply w-full rounded-lg px-4 py-2 text-black; }
+.button { @apply px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50; }
+.card { @apply bg-white dark:bg-gray-800 rounded-lg p-6 mt-6 shadow; }
