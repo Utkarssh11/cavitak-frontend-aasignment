@@ -35,7 +35,6 @@ I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **
 ├── pages/             # Next.js pages
 ├── styles/            # Global styles (Tailwind CSS)
 ├── public/            # Static assets
-├── .env.local.example # Example environment variables
 └── README.md
 ```
 
