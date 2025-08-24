@@ -40,7 +40,6 @@ I made this project with **HTML, CSS, and JavaScript**, using **Next.js** and **
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v18 or later)  
 - OpenWeatherMap API key (free at [https://openweathermap.org/](https://openweathermap.org/))  
 
 
